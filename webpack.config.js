@@ -14,7 +14,9 @@ module.exports={
     port: 3000,
     overlay: true,
     stats: "errors-only",
-    historyApiFallback:true
+    historyApiFallback:true,
+    open:true,
+    hot:true
   },
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],

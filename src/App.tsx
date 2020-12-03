@@ -1,9 +1,10 @@
 import React from 'react'
+import Root from './routes'
 
 function App(){
   return(
     <div>
-      Project Settings Complete!!
+      <Root />
     </div>
   )
 }
